@@ -13,4 +13,9 @@ class Triangle
   end
   
   def validate_triangle
+    correct = [(a + b > c), (a + c > b), (b + c > a)]
+  end
+  
+  class TriangleError < StandordError
+  end
 end
