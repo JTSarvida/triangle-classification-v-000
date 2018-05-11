@@ -10,4 +10,6 @@ class Triangle
   
   def kind
   end
+  
+  triangle_conditions = [(a == b == c)]
 end
