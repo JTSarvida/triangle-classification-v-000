@@ -9,6 +9,8 @@ class Triangle
   end
   
   def kind
+    
   end
-
+  
+  def validate_triangle
 end
